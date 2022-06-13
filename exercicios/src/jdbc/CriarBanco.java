@@ -10,7 +10,7 @@ public static void main(String[] args) throws SQLException {
 		
 		final String url = "jdbc:mysql://localhost:3306?verifyServerCertificate=false&useSSL=true";
 		final String usuário = "root";
-		final String senha = "619195jhow";
+		final String senha = "1234";
 		
 		Connection conexao = DriverManager.getConnection(url, usuário, senha);
 		
