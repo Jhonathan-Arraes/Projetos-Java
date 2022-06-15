@@ -1,6 +1,6 @@
 package teste.basico;
 
-import Infra.DAO;
+import infra.DAO;
 import modelo.basico.Produto;
 
 public class NovoProduto {
