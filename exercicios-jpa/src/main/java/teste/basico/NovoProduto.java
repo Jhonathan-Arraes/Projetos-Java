@@ -11,5 +11,6 @@ public class NovoProduto {
 		DAO<Produto> dao = new DAO<>(Produto.class);
 		dao.abrirT().incluir(produto).fecharT().fechar();
 			
+		System.out.println("Id do produto " + produto.getId());
 	}
 }
