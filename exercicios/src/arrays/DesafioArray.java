@@ -7,10 +7,10 @@ public class DesafioArray {
 		
 		Scanner entrada = new Scanner (System.in);
 		System.out.print("Quantas notas? ");
-		int quantidade = entrada.nextInt();
+		int quantidade = entrada.nextInt(); 
 		
 		double nota[] = new double [quantidade];
-		
+		 
 		for (int i  = 0; i < nota.length; i++) {
 			System.out.print("Informe a nota " + (i + 1) + ":");
 			nota[i] = entrada.nextDouble();
